@@ -47,7 +47,7 @@ public class Client extends JFrame implements ActionListener {
     l2.setBounds(40,0,60,60);
     p1.add(l2);
     
-    JLabel l3 = new JLabel("Chloe");
+    JLabel l3 = new JLabel("Student");
     l3.setFont(new Font("SAN_SERIF",Font.BOLD,20));
     l3.setForeground(Color.white);
     l3.setBounds(110,10,100,20);
