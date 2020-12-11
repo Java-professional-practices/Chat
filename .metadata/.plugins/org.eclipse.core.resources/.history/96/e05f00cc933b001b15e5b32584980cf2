@@ -68,7 +68,7 @@ public class Client extends JFrame implements ActionListener {
     	}
     });
     
-    t.setInitialDelay(500);
+    t.setInitialDelay(1000);
     
     a1 = new JTextArea();
     a1.setBounds(0, 51,500 , 498);

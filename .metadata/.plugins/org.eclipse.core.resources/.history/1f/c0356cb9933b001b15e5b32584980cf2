@@ -17,7 +17,7 @@ public class Client extends JFrame implements ActionListener {
     static Socket s;
     static DataInputStream din;
     static DataOutputStream dout;
-    boolean typing = false;
+    boolean typing;
     
     Client(){
     
@@ -68,7 +68,7 @@ public class Client extends JFrame implements ActionListener {
     	}
     });
     
-    t.setInitialDelay(500);
+    t.setInitialDelay(2000);
     
     a1 = new JTextArea();
     a1.setBounds(0, 51,500 , 498);
@@ -95,7 +95,7 @@ public class Client extends JFrame implements ActionListener {
         	}
         	
         	public void keyReleased(KeyEvent ke) {
-        		typing = false;
+        		typing = true;
         		
         		if(!t.isRunning()) {
         			t.start();
